@@ -1,5 +1,5 @@
 #header {
-    background-color: #f4f4f4;
+    background-color: #FFFFFF;
     width: 100%;
     z-index: 3;
     display: block;
@@ -16,7 +16,6 @@
 #logo img {
     height: 40px;
     width: 104px;
-    /*display: inline-block;*/
 }
 #links {
     margin-top: 10px;
@@ -25,7 +24,6 @@
 }
 #links li.link {
     border: 1px solid rgba(51, 51, 51, 0.3);
-    ;
     border-radius: 3px;
     text-transform: uppercase;
     letter-spacing: 1.3px;
@@ -171,7 +169,7 @@ h2 {
 }
 @media screen and (max-device-width: 800px) {
     html {
-        background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed;
+        background: url("img/frame1.png") #000 no-repeat center center fixed;
     }
     #bgvid {
         display: none;
