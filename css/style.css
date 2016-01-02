@@ -82,7 +82,17 @@
 
 #third {
     padding-top: 70px;
-    height: calc(100vh - 70px)
+    height: calc(100vh - 70px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: center;
+}
+
+span.blurb {
+    width: 75%;
+    font-size: 0.8em;
+    font-family: 'ClearSans';
 }
 
 .section-contents {
@@ -118,8 +128,9 @@
     -webkit-clip-path: circle(110px at center);
 }
 .bio {
-    width: 100%;
+    width: 90%;
     /*background-color: green;*/
+    text-align: justify;
 }
 span.name {
     /*background-color: red;*/
