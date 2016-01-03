@@ -1,6 +1,11 @@
 /* ************ */
+
+
 /* HEADER STUFF */
+
+
 /* ************ */
+
 #header {
     background-color: #E6E6E6;
     width: 100%;
@@ -21,9 +26,14 @@
     width: 104px;
 }
 #links {
-    margin-top: 10px;
+    margin-top: 23px;
     display: inline-block;
     float: right;
+    margin-bottom: auto;
+}
+#links ul {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #links li.link {
     border: 1px solid rgba(51, 51, 51, 0.3);
@@ -40,9 +50,15 @@
     list-style-type: none;
     margin-right: 10px;
 }
+
 /* ************ */
+
+
 /* SECTION STUFF */
+
+
 /* ************ */
+
 .section {
     background-color: width: 100vw;
     height: 100vh;
@@ -68,27 +84,29 @@
     width: 100%;
     display: block-inline;
 }
-#second img {
-    height: 100px;
-    display: block;
-    padding-top: 30px;
-    margin-left: 70px;
-    padding-bottom: 0px;
-    transform: scale(1.7);
+#howitworks #title {
+    font-size: 50px;
+    font-family: 'ClearSans';
+    color: #2BA9E0;
 }
-#steps p {
-    display: inline;
-    position: relative;
-    bottom: 70px;
-    left: 240px;
+#howitworks {
+    margin-top: 3em;
 }
-.stepheader {
-    display: inline;
-    font-weight: bold;
+#howitworks img {
+    height: 200px;
+}
+#howitworks p {
+    margin-top: auto;
+    margin-bottom: auto;
     font-size: 18px;
+    width: 500px;
 }
-#steps {
-    width: 490px;
+#howitworks #text {
+    position: relative;
+    top: 35px;
+}
+#howitworks #icon {
+    /*background-color: blue;*/
 }
 #third {
     padding-top: 70px;
@@ -112,8 +130,6 @@ span.blurb {
     margin-top: 1px;
 }
 .person {
-    /*position: relative;*/
-    /*margin-top: 30px;*/
     float: left;
     width: calc(33.33% - 20px);
     height: 500px;
@@ -136,20 +152,7 @@ span.blurb {
 }
 .bio {
     width: 90%;
-    /*background-color: green;*/
     text-align: justify;
-}
-.steps {
-    margin-left: auto;
-    margin-right: auto;
-}
-#title {
-    font-size: 50px;
-    font-family: 'ClearSans';
-    margin-left: 90px;
-    color: #2BA9E0;
-    margin-top: 0px;
-    margin-bottom: 20px;
 }
 span.name {
     /*background-color: red;*/
@@ -183,7 +186,6 @@ h1 {
     margin-top: 0 !important;
     font-family: 'ClearSans-Bold', sans-serif;
     font-size: 7em;
-    font-weight: bolder;
     color: #F2F2F2;
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.50);
     margin-bottom: 0px;
