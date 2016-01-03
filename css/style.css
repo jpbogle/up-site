@@ -84,14 +84,6 @@
     transform: scale(1.7);
 }
 
-h3 {
-  font-size: 70px;
-  margin-left: 90px;
-  color: #2BA9E0;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-
 #steps p{
   display: inline;
   position:relative;
@@ -152,15 +144,32 @@ span.blurb {
     transition: all 100ms ease-in-out;
     margin-bottom: -25px
 }
+
 .person img:hover {
     /*transform: scale(1.1);*/
     -webkit-clip-path: circle(110px at center);
 }
+
 .bio {
     width: 90%;
     /*background-color: green;*/
     text-align: justify;
 }
+
+.steps {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    font-size: 50px;
+    font-family: 'ClearSans';
+    margin-left: 90px;
+    color: #2BA9E0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
 span.name {
     /*background-color: red;*/
     /*margin-top: -50px;*/
