@@ -112,11 +112,12 @@
 
 
 
-#values {
-  width: 100%;
+.values {
+  width: 150%;
   background-color: #E6E6E6;
   height: calc(100vh - 70px);
 }
+
 #c1 {
   margin-left: 1%;
 }
