@@ -6,15 +6,15 @@
 
 /* ************ */
 
-
 /* COLORS
     dark blue   #2C3E50
     bright red  #E74C3C
     off white   #ECF0F1
     light blue  #2980B9 */
 
+
 #header {
-    background-color: #ECF0F1;
+    background-color: #E6E6E6;
     width: 100%;
     z-index: 3;
     display: block;
@@ -57,10 +57,6 @@
     padding: 7px 14px 7px 14px;
     list-style-type: none;
     margin-right: 10px;
-}
-#links li:hover {
-    color: rgba(40, 169, 224, 1);
-    transition: all 100ms ease-in-out;
 }
 
 /* ************ */
@@ -123,47 +119,62 @@
 #howitworks #icon {
     /*background-color: blue;*/
 }
+
+
+
+
 .values {
-    width: 100%;
-    background-color: #E6E6E6;
-    height: calc(100vh - 70px);
+  width: 100%;
+  background-color: #E6E6E6;
+  height: calc(100vh - 70px);
 }
+
 #c1 {
-    margin-left: 1%;
+  margin-left: 1%;
 }
 .type {
-    display: table;
-    margin-left: auto;
-    font-family: 'ClearSans';
-    font-size: 15px;
-    padding-top: 30px;
+  display: table;
+  margin-left:auto;
+  font-family: 'ClearSans';
+  font-size: 15px;
+  padding-top: 30px;
 }
 .fulltype {
-    display: table;
-    margin-left: auto;
-    font-family: 'ClearSans-Bold';
-    font-size: 25px;
-    padding-top: 20px;
+  display: table;
+  margin-left:auto;
+  font-family: 'ClearSans-Bold';
+  font-size: 25px;
+  padding-top: 20px;
 }
-h4 {
-    text-align: center;
-    font-family: 'ClearSans-Bold';
+
+
+
+
+h4{
+  text-align: center;
+  font-family: 'ClearSans-Bold';
 }
+
 .value {
-    display: table;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'ClearSans';
-    font-size: 20px;
-    padding-top: 20px
+  display: table;
+  margin:0 auto;
+  text-align: center;
+  font-family: 'ClearSans';
+  font-size: 20px;
+  padding-top: 20px
 }
 .package-heading {
-    display: table;
-    margin: 0 auto;
-    font-family: 'ClearSans-Bold';
-    font-size: 30px;
-    padding-top: 10px;
+  display:table;
+  margin:0 auto;
+  font-family: 'ClearSans-Bold';
+  font-size: 30px;
+  padding-top: 10px;
 }
+
+
+
+
+
 #third {
     padding-top: 70px;
     height: calc(100vh - 70px);
