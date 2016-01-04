@@ -72,6 +72,7 @@
     overflow: hidden;
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('img/semitransparent.png')
 }
 #mainbox {
     text-align: center;
