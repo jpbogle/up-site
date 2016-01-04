@@ -6,6 +6,13 @@
 
 /* ************ */
 
+/* COLORS
+    dark blue   #2C3E50
+    bright red  #E74C3C
+    off white   #ECF0F1
+    light blue  #2980B9 */
+
+
 #header {
     background-color: #E6E6E6;
     width: 100%;
@@ -114,14 +121,7 @@
 
 
 
-#title3 {
-  font-size: 50px;
-  font-family: 'ClearSans-Bold';
-  margin-left: 50px;
-}
-
 .values {
-  padding-top: 65px;
   width: 100%;
   background-color: #E6E6E6;
   height: calc(100vh - 70px);
@@ -134,15 +134,15 @@
   display: table;
   margin-left:auto;
   font-family: 'ClearSans';
-  font-size: 20px;
-  padding-top: 20px;
+  font-size: 15px;
+  padding-top: 30px;
 }
 .fulltype {
   display: table;
   margin-left:auto;
   font-family: 'ClearSans-Bold';
-  font-size: 30px;
-  padding-top: 10px;
+  font-size: 25px;
+  padding-top: 20px;
 }
 
 
