@@ -125,14 +125,14 @@
   margin-left:auto;
   font-family: 'ClearSans';
   font-size: 15px;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .fulltype {
   display: table;
   margin-left:auto;
   font-family: 'ClearSans-Bold';
   font-size: 25px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 
@@ -149,6 +149,7 @@ h4{
   text-align: center;
   font-family: 'ClearSans';
   font-size: 20px;
+  padding-top: 20px
 }
 .package-heading {
   display:table;
