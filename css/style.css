@@ -112,7 +112,14 @@
 
 
 
+#title3 {
+  font-size: 50px;
+  font-family: 'ClearSans-Bold';
+  margin-left: 50px;
+}
+
 .values {
+  padding-top: 65px;
   width: 100%;
   background-color: #E6E6E6;
   height: calc(100vh - 70px);
