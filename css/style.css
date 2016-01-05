@@ -312,7 +312,7 @@ h2 {
     html {
         background: url('img/frame1.png') #000 no-repeat center center fixed;
     }
-    #bgvid {
+    /*#bgvid {
         display: none;
-    }
+    }*/
 }
