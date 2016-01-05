@@ -96,7 +96,9 @@
 }
 #second {
     margin-top: 300 height: calc(100vh + 30px);
-    width: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
     display: block-inline;
 }
 #howitworks #title {
