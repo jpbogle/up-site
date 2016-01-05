@@ -62,6 +62,9 @@
     color: rgba(40, 169, 224, 1);
     transition: all 100ms ease-in-out;
 }
+#links a {
+  text-decoration: none;
+}
 
 /* ************ */
 
