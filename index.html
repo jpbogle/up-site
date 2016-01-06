@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<meta charset="utf-8">
 	<title>Up Photography</title>
 	<meta name="description" content="Providing high-quality aerial images and videos in the twenty-first century.">
@@ -11,18 +12,21 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="video.js"></script>
 </head>
-
 <body>
 	<div id="header">
 		<div id="logo">
 			<img src="img/logo-black.png">
 		</div>
+
 		<div id="links">
 			<ul>
-				<li>support@upphoto.us</li>
-				<li>(781) 835-9305</li>
+				<li id="hidden" style="visibility:hidden;font-size:23px;padding: 0px 14px 15px 20px;font-family:HelveticaNeue;"></li>
+				<div id="info">
+				<li class="infos">support@upphoto.us</li>
+				<li class="infos">(781) 835-9305</li>
 				<a href="https://www.youtube.com/channel/UCpZTSOeLK3WyLV2L-i2ESkg"><li class="link">YouTube</li></a>
 				<a href="#"><li class="link">Twitter</li></a>
+				</div>
 			</ul>
 		</div>
 	</div>
@@ -78,9 +82,9 @@
 
 
 
-		<div class="values">
+		<div class="values" id="values">
 			<div class="container">
-				<div><h5 id="title3">Pick a package</h></div>
+				<div><h5 id="title3"></h></div>
 					<div class=row>
 					<!-- <div>
 						<div class="two columns" id="c1">
@@ -157,5 +161,58 @@
 		</div>
 	</div>
 </body>
+<script>
+// From Dane :)
+// Makes li text invisible when in first section
+// Makes li text visible with correct text when in other sections
+function hiddenText(text, isVisible){
+	var hidden = document.getElementById("hidden");
+	hidden.style.visibility = isVisible;
+	hidden.innerHTML = text;
+}
 
+function getId(){
+	var secondT = $('#second').offset().top,
+			secondH = $('#second').outerHeight(),
+			valuesT = $('#values').offset().top,
+			valuesH = $('#values').outerHeight(),
+			thirdT = $('#third').offset().top,
+			thirdH = $('#third').outerHeight(),
+			wH = $(window).height(),
+			wS = $(this).scrollTop();
+
+	var second = secondT+secondH-wH
+	var values = valuesT+valuesH-wH
+	var third = thirdT+thirdH-wH
+
+	if (wS+100 < second){
+		return "first";
+	}
+	if ((wS + 100) > second && (wS + 100) < values){
+		return "second";
+	}
+	if (wS + 100 > values && wS + 100 < third){
+		return "values";
+	}
+	if (wS+100>third){
+		return "third"
+	}
+
+}
+$(window).scroll(function(){
+			id = getId();
+			if (id=="first"){
+				hiddenText("", "hidden");
+			}
+			if (id=="second"){
+				hiddenText("How It Works", "visible");
+			}
+			if (id=="values"){
+				hiddenText("Pick A Package","visible");
+			}
+			if (id=="third"){
+				hiddenText("About Us","visible");
+			}
+});
+</script>
 </html>

@@ -34,13 +34,20 @@
     width: 104px;
 }
 #links {
-    margin-top: 23px;
+    margin-top: 18px;
     display: inline-block;
     float: right;
     margin-bottom: auto;
+    width: 86%;
 }
+
+
+#hidden {
+  float: left;
+}
+
 #links ul {
-    margin-top: auto;
+    margin-top: -3px;
     margin-bottom: auto;
 }
 #links li.link {
@@ -49,8 +56,9 @@
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-weight: 600;
+    float:right;
 }
-#links li {
+#links #info li {
     color: rgba(51, 51, 51, 0.8);
     display: inline;
     font-size: 11px;
@@ -58,7 +66,7 @@
     list-style-type: none;
     margin-right: 10px;
 }
-#links li:hover {
+#links #info li:hover {
     color: rgba(40, 169, 224, 1);
     transition: all 100ms ease-in-out;
 }
@@ -66,6 +74,15 @@
   text-decoration: none;
 }
 
+#links li {
+  display: inline;
+  font-weight: bold;
+}
+
+#links #info {
+  float: right;
+  margin-top: 7px;
+}
 /* ************ */
 
 
