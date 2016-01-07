@@ -123,7 +123,7 @@
 }
 #howitworks #title {
     font-size: 50px;
-    font-family: 'ClearSans';
+    font-family: 'ClearSans', 'OpenSans', sans-serif;
     color: #2BA9E0;
 }
 #howitworks {
@@ -154,13 +154,13 @@
 
 #title3 {
   font-size: 50px;
-  font-family: 'ClearSans';
+  font-family: 'ClearSans', 'OpenSans', sans-serif;
   /*color: #2BA9E0;*/
   padding-bottom: 20px;
 }
 .values {
     width: 100%;
-    background-color: #E6E6E6;
+    background-color: #ECF0F1;
     height: calc(100vh - 70px);
     padding-top: 140px;
     padding-bottom: 30px;
@@ -169,7 +169,7 @@
 .type {
     display: table;
     margin-left: auto;
-    font-family: 'ClearSans';
+    font-family: 'ClearSans', 'OpenSans', sans-serif;
     font-size: 15px;
     padding-top: 30px;
 }
@@ -188,7 +188,7 @@ h4 {
     display: table;
     margin: 0 auto;
     text-align: center;
-    font-family: 'ClearSans';
+    font-family: 'ClearSans', 'OpenSans', sans-serif;
     font-size: 20px;
     padding-top: 20px
 }
@@ -245,7 +245,7 @@ img:hover {
 span.blurb {
     width: 75%;
     font-size: 0.8em;
-    font-family: 'ClearSans';
+    font-family: 'ClearSans', 'OpenSans', sans-serif;
 }
 .section-contents {
     max-width: 960px;
