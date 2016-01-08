@@ -235,7 +235,6 @@ span.blurb {
     margin: 0 30px;
 }
 .person img {
-    /*width: 90%;*/
     -webkit-clip-path: circle(100px at center);
     height: 300px;
     margin: 0 auto;
@@ -252,13 +251,11 @@ span.blurb {
     text-align: justify;
 }
 span.name {
-    /*background-color: red;*/
-    /*margin-top: -50px;*/
+
     font-size: 1.3em;
     text-align: center;
     width: 100%;
     display: block;
-    /*position: relative;*/
     margin: 0 auto;
 }
 video {
