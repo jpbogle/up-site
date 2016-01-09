@@ -30,7 +30,6 @@ html {
     position: relative;
 }
 #logo img {
-    height: 40px;
     width: 104px;
 }
 #links {
@@ -285,6 +284,6 @@ h2 {
 }
 @media screen and (max-device-width: 800px) {
     html {
-        background: url('img/frame1.png') #000 no-repeat center center fixed;
+        background: url('img/frame1.jpg') #000 no-repeat center center fixed;
     }
 }
