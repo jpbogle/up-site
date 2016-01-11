@@ -228,7 +228,19 @@
 			hiddenText("About Us", "visible");
 		}
 	});
+
+
+	$(document).scroll(function(){
+	    var scroll_pos = $(window).scrollTop()
+	    if(scroll_pos > 10){
+	        $('#logo').click(function(){
+						$(window).scrollTop(0);
+	        });
+
+	    }
+	    });
 </script>
+
 
 <script type="text/javascript">
 	function scrollplay() {
