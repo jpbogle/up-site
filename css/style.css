@@ -158,14 +158,16 @@ html {
 }
 .value {
     display: table;
-    padding-top: 20px
+    padding-top: 20px;
+    font-size: 1.3em;
 }
 .bigvalue {
     display: table;
     font-weight: bold;
-    line-height: 40px;
+    line-height: 60px;
 
     text-align: justify;
+    font-size: 1.7em;
 }
 .values div span {
     position: relative;
@@ -186,6 +188,7 @@ html {
 
 img:hover+span, img:hover+span+span, img:hover+span+span+span, img:hover+span+span+span+span {
     opacity: 1;
+    bottom: -36px;
 }
 img:hover {
     -webkit-transform: scale(1.05);
