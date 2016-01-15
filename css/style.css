@@ -4,10 +4,6 @@
     off white   #ECF0F1
     light blue  #2980B9 */
 
-html {
-    font-family: 'Proxima Nova', 'proxima-nova-condensed', 'Helvetica', sans-serif;
-}
-
 /* ************ */
 /* ************ */
 /* HEADER STUFF */
@@ -258,7 +254,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    background: url('img/frame1.jpg') no-repeat;
+    background: url('../img/frame1.jpg') no-repeat;
     background-size: cover;
     transition: 1s opacity;
     pointer-events: none;
@@ -287,6 +283,6 @@ h2 {
 }
 @media screen and (max-device-width: 800px) {
     /*html {
-        background: url('img/frame1.jpg') #000 no-repeat center center fixed;
+        background: url('../img/frame1.jpg') #000 no-repeat center center fixed;
     }*/
 }
