@@ -1,8 +1,9 @@
 /* DOCUMENT COLORS
-    dark blue   #2C3E50
-    bright red  #E74C3C
-    off white   #ECF0F1
-    light blue  #2980B9 */
+    gray  #e1e0dd
+    brown  #35342f
+    less white   #e1e0dd
+    whiteish  #f1f2f0 */
+
 
 /* ************ */
 /* ************ */
@@ -11,14 +12,12 @@
 /* ************ */
 
 #header {
-    background-color: #ECF0F1;
+    background-color: #f1f2f0;
     width: 100%;
     z-index: 99;
     display: block;
     position: fixed;
     height: 70px;
-    /*border: 1px;
-    border-bottom-style: solid;*/
 }
 #logo {
     height: 40px;
@@ -45,7 +44,8 @@
     margin-bottom: auto;
 }
 #links li.link {
-    border: 1px solid rgba(51, 51, 51, 0.3);
+    /*border: 1px solid rgba(51, 51, 51, 0.3);*/
+    border: 1px solid #e1e0dd;
     border-radius: 3px;
     text-transform: uppercase;
     letter-spacing: 1.3px;
