@@ -1,8 +1,4 @@
-/* DOCUMENT COLORS
-    gray  #e1e0dd
-    brown  #35342f
-    less white   #e1e0dd
-    whiteish  #f1f2f0 */
+
 
 
 /* ************ */
@@ -82,7 +78,7 @@
 /* ************* */
 
 .whitebackground {
-    background-color: white;
+    background-color: #f1f2f0;
 }
 .section {
     background-color: width: 100vw;
@@ -134,9 +130,15 @@
 #howitworks #iconr {
     margin-left: 25px;
 }
+
+/* DOCUMENT COLORS
+    brown  #46454b
+    blue   #00aabb
+    whiteish  #e0e5da
+    red: #f43530 */
 .values {
     width: 100%;
-    background-color: #ECF0F1;
+    background-color: #e1e0dd;
     padding-top: 100px;
     padding-bottom: 170px;
 }
